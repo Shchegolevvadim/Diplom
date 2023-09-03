@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+    </script>
+    <style>
+        body {
+            height: 3000px;
+            background: linear-gradient(141deg, #eef8c4 50%, #f0f1a3 51%, #f0f7ab 75%);
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .container {
+            display: inline-block;
+            cursor: pointer;
+        }
+        
+        .bar1,
+        .bar2,
+        .bar3 {
+            width: 35px;
+            height: 5px;
+            background-color: #333;
+            margin: 6px 0;
+            transition: 0.4s;
+        }
+        
+        .change .bar1 {
+            -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+            transform: rotate(-45deg) translate(-9px, 6px);
+        }
+        
+        .change .bar2 {
+            opacity: 0;
+        }
+        
+        .change .bar3 {
+            -webkit-transform: rotate(45deg) translate(-8px, -8px);
+            transform: rotate(45deg) translate(-8px, -8px);
+        }
+    </style>
+
+
+</head>
+
+
+<body>
+
+    <style>
+        .outer {
+            text-align: center;
+        }
+    </style>
+    <div class="outer"><img src="_.gif"></div>
+
+    <h1>
+        <style>
+            .outer {
+                text-align: center;
+            }
+        </style>
+        <div class="outer">Современная нумизматика</div>
+
+
+    </h1>
+    <style>
+        .outer {
+            text-align: center;
+        }
+    </style>
+    <div class="outer">
+        <li>Дорогие любители монет, банкнот и других диковинных вещей. Мы рады вас приветствовать на нашем сайте посвященному коллекционированию. У нас вы сможете не только приобрести редкие коллекции диковинных монет, но и предложить свои уникальные редкие
+            экземпляры, которые хорошо будут оценены нашими экспертами.</li>
+        <li>Здесь также можно ознакомится с интересными статьями о монетах, узнать много нового и интересного из истории.</li>
+        <li>Узнать причины по которым стоимость монет завышена.</li>
+        <tr>Наиболее дорогие десятирублёвые монеты современной России и причины их стоимости:</tr>
+    </div>
+
+
+
+    <a href="https://gdenashel.ru/articles/samye-dorogie-monety-10-rubley-rf">
+        <div class="outer"><img src="https://rmx.ru/wp-content/uploads/2021/12/blobid1640373499742.png"></div>
+    </a>
+
+
+    <div class="outer">Нажмите на иконку для того чтобы участвовать в онлайн торгах через телеграмм бот</div>
+    <div class="outer">
+        <a href="https://t.me/Numizmaticbot">
+            <div class="container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+
+            <script>
+                function myFunction(x) {
+                    x.classList.toggle("change");
+                }
+            </script>
+    </div>
+    </a>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>№ экземпляра: </th>
+                <th>Фото 1: </th>
+                <th>Фото 2: </th>
+                <th>Описание монеты: </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>
+                    <td> 1 </td>
+                    <td>
+                        <img src="3.jpg">
+                        <button id="show">Аверс</button>
+                        <button id="hide">Скрыть</button>
+                        <img id="image" src="photo_2023-02-09_14-55-36.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image").hide();
+                                $("#hide").attr('disabled', true);
+                                $("#hide").click(function() {
+                                    $("#image").hide();
+                                    $("#hide").attr('disabled', true);
+                                    $("#show").attr('disabled', false);
+
+                                });
+                                $("#show").click(function() {
+                                    $("#image").show();
+                                    $("#hide").attr('disabled', false);
+                                    $("#show").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td>
+                        <img src="4.jpg">
+                        <button id="show2">Реверс</button>
+                        <button id="hide2">Скрыть</button>
+                        <img id="image2" src="photo_2023-02-09_14-55-40.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image2").hide();
+                                $("#hide2").attr('disabled', true);
+                                $("#hide2").click(function() {
+                                    $("#image2").hide();
+                                    $("#hide2").attr('disabled', true);
+                                    $("#show2").attr('disabled', false);
+
+                                });
+                                $("#show2").click(function() {
+                                    $("#image2").show();
+                                    $("#hide2").attr('disabled', false);
+                                    $("#show2").attr('disabled', true);
+                                });
+                            });
+                        </script>
+
+                    </td>
+                    <td>Посвящена двухсотлетию победы в войне 1812 года против Наполеона.Аверс монеты представляет собой номинал 10 рублей и год изготовления - 2012. На реверсе изображена триумфальная арка, которая была построена вместо деревянной арки на
+                        месте встречи русских войск одержавших победу. Лот 000001. Стартовая стоимость 60 рублей.</td>
+                </th>
+            </tr>
+
+            <tr>
+                <th>
+                    <td> 2 </td>
+                    <td>
+                        <img src="1.jpg">
+                        <button id="show3">Аверс</button>
+                        <button id="hide3">Скрыть</button>
+                        <img id="image3" src="photo_2023-02-09_14-49-59.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image3").hide();
+                                $("#hide3").attr('disabled', true);
+                                $("#hide3").click(function() {
+                                    $("#image3").hide();
+                                    $("#hide3").attr('disabled', true);
+                                    $("#show3").attr('disabled', false);
+
+                                });
+                                $("#show3").click(function() {
+                                    $("#image3").show();
+                                    $("#hide3").attr('disabled', false);
+                                    $("#show3").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td>
+                        <img src="2.jpg">
+                        <button id="show4">Реверс</button>
+                        <button id="hide4">Скрыть</button>
+                        <img id="image4" src="photo_2023-02-09_14-51-05.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image4").hide();
+                                $("#hide4").attr('disabled', true);
+                                $("#hide4").click(function() {
+                                    $("#image4").hide();
+                                    $("#hide4").attr('disabled', true);
+                                    $("#show4").attr('disabled', false);
+
+                                });
+                                $("#show4").click(function() {
+                                    $("#image4").show();
+                                    $("#hide4").attr('disabled', false);
+                                    $("#show4").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td> Монета изготовлена в честь 65 летия победы во второй мировой войне.На аверсе изображен номинал в десять рублей обрамленный дубовой и лавровой ветвями. На реверсе изображена эмблема празднования в виде пятиконечной звезды, образованной
+                        орденской лентой. Лот 000002. Стартованя стоимость 60 рублей </td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <td> 3 </td>
+                    <td>
+                        <img src="5.jpg">
+                        <button id="show5">Аверс</button>
+                        <button id="hide5">Скрыть</button>
+                        <img id="image5" src="photo_2023-02-10_18-09-56.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image5").hide();
+                                $("#hide5").attr('disabled', true);
+                                $("#hide5").click(function() {
+                                    $("#image5").hide();
+                                    $("#hide5").attr('disabled', true);
+                                    $("#show5").attr('disabled', false);
+
+                                });
+                                $("#show5").click(function() {
+                                    $("#image5").show();
+                                    $("#hide5").attr('disabled', false);
+                                    $("#show5").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td>
+                        <img src="6.jpg">
+                        <button id="show6">Реверс</button>
+                        <button id="hide6">Скрыть</button>
+                        <img id="image6" src="photo_2023-02-10_18-10-54.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image6").hide();
+                                $("#hide6").attr('disabled', true);
+                                $("#hide6").click(function() {
+                                    $("#image6").hide();
+                                    $("#hide6").attr('disabled', true);
+                                    $("#show6").attr('disabled', false);
+
+                                });
+                                $("#show6").click(function() {
+                                    $("#image6").show();
+                                    $("#hide6").attr('disabled', false);
+                                    $("#show6").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td>
+                        Изготовлена в честь 50 летия с первого полёта в космос. На аверсе изображение номинала 10 рублей, в цифре ноль видны под разным углом изображения цифры 10 надписи "РУБ". На реверсе изображение ракеты справа и планеты слева, надпись 50 лет человека в космосе
+                        расположена вдоль канта. Лот 000003. Стартовая стоимость 60 рублей.
+                    </td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <td> 4 </td>
+                    <td><img src="7.jpg">
+                        <button id="show7">Аверс</button>
+                        <button id="hide7">Скрыть</button>
+                        <img id="image7" src="photo_2023-02-11_14-30-11.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image7").hide();
+                                $("#hide7").attr('disabled', true);
+                                $("#hide7").click(function() {
+                                    $("#image7").hide();
+                                    $("#hide7").attr('disabled', true);
+                                    $("#show7").attr('disabled', false);
+
+                                });
+                                $("#show7").click(function() {
+                                    $("#image7").show();
+                                    $("#hide7").attr('disabled', false);
+                                    $("#show7").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td>
+                        <img src="8.jpg">
+                        <button id="show8">Реверс</button>
+                        <button id="hide8">Скрыть</button>
+                        <img id="image8" src="photo_2023-02-11_15-00-48.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image8").hide();
+                                $("#hide8").attr('disabled', true);
+                                $("#hide8").click(function() {
+                                    $("#image8").hide();
+                                    $("#hide8").attr('disabled', true);
+                                    $("#show8").attr('disabled', false);
+
+                                });
+                                $("#show8").click(function() {
+                                    $("#image8").show();
+                                    $("#hide8").attr('disabled', false);
+                                    $("#show8").attr('disabled', true);
+                                });
+                            });
+                        </script>
+
+                    </td>
+                    <td>Изготовлена 2 апреля 2012 года. На аверсе в центре диска — обозначение номинала монеты «10 РУБЛЕЙ». Внутри цифры «0» — скрытые, видимые поочередно при изменении угла зрения изображения цифры «10» и надписи «РУБ». По окружности вдоль
+                        канта — надписи, вверху: «БАНК РОССИИ», внизу — дата: «2012», слева — стилизованное изображение оливковой ветви, справа — дубовой, под ней изображён знак монетного двора. На реверсе Герб города Воронежа, над ним, на ленте — надпись
+                        полукругом: «ГОРОДА ВОИНСКОЙ СЛАВЫ», внизу, вдоль канта — надпись: «ВОРОНЕЖ». Лот 000004. Стартовая стоимость 60 руб.
+                    </td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <td> 5 </td>
+                    <td><img src="9.jpg">
+                        <button id="show9">Аверс</button>
+                        <button id="hide9">Скрыть</button>
+                        <img id="image9" src="photo_2023-02-11_16-21-45.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image9").hide();
+                                $("#hide9").attr('disabled', true);
+                                $("#hide9").click(function() {
+                                    $("#image9").hide();
+                                    $("#hide9").attr('disabled', true);
+                                    $("#show9").attr('disabled', false);
+
+                                });
+                                $("#show9").click(function() {
+                                    $("#image9").show();
+                                    $("#hide9").attr('disabled', false);
+                                    $("#show9").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td><img src="10.jpg">
+                        <button id="show10">Реверс</button>
+                        <button id="hide10">Скрыть</button>
+                        <img id="image10" src="photo_2023-02-11_16-28-07.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image10").hide();
+                                $("#hide10").attr('disabled', true);
+                                $("#hide10").click(function() {
+                                    $("#image10").hide();
+                                    $("#hide10").attr('disabled', true);
+                                    $("#show10").attr('disabled', false);
+                                });
+                                $("#show10").click(function() {
+                                    $("#image10").show();
+                                    $("#hide10").attr('disabled', false);
+                                    $("#show10").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td>Изготовлена 2 октября 2012 года.На аверсе в центре диска — обозначение номинала монеты «10 РУБЛЕЙ». Внутри цифры «0» — скрытые, видимые поочередно при изменении угла зрения изображения цифры «10» и надписи «РУБ». По окружности вдоль
+                        канта — надписи, вверху: «БАНК РОССИИ», внизу — дата: «2012», слева — стилизованное изображение оливковой ветви, справа — дубовой, под ней изображён знак монетного двора. На аверсе герб города Великого Новгорода. Внизу вдоль канта
+                        надпись "Великий Новгород". Лот 000005. Стартовая стоимость 60 рублей</td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <td> 6 </td>
+                    <td><img src="11.jpg">
+                        <button id="show11">Аверс</button>
+                        <button id="hide11">Скрыть</button>
+                        <img id="image11" src="photo_2023-02-11_16-44-35.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image11").hide();
+                                $("#hide11").attr('disabled', true);
+                                $("#hide11").click(function() {
+                                    $("#image11").hide();
+                                    $("#hide11").attr('disabled', true);
+                                    $("#show11").attr('disabled', false);
+
+                                });
+                                $("#show11").click(function() {
+                                    $("#image11").show();
+                                    $("#hide11").attr('disabled', false);
+                                    $("#show11").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td><img src="12.jpg">
+                        <button id="show12">Реверс</button>
+                        <button id="hide12">Скрыть</button>
+                        <img id="image12" src="photo_2023-02-11_16-47-35.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image12").hide();
+                                $("#hide12").attr('disabled', true);
+                                $("#hide12").click(function() {
+                                    $("#image12").hide();
+                                    $("#hide12").attr('disabled', true);
+                                    $("#show12").attr('disabled', false);
+                                });
+                                $("#show12").click(function() {
+                                    $("#image12").show();
+                                    $("#hide12").attr('disabled', false);
+                                    $("#show12").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td>Изготовлена 7 мая 2013 года.На аверсе в центре диска — обозначение номинала монеты «10 РУБЛЕЙ». Внутри цифры «0» — скрытые, видимые поочередно при изменении угла зрения изображения цифры «10» и надписи «РУБ». По окружности вдоль канта
+                        — надписи, вверху: «БАНК РОССИИ», внизу — дата: «2013», слева — стилизованное изображение оливковой ветви, справа — дубовой, под ней изображён знак монетного двора. На реверсе герб города Кронштадта, над ним, на ленте — надпись
+                        полукругом: «ГОРОДА ВОИНСКОЙ СЛАВЫ», внизу, вдоль канта — надпись: «КРОНШТАДТ». Лот 000006. Стартовая стоимость 60 рублей.
+                    </td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <td> 7 </td>
+                    <td><img src="13.jpg">
+                        <button id="show13">Аверс</button>
+                        <button id="hide13">Скрыть</button>
+                        <img id="image13" src="photo_2023-02-11_17-41-43.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image13").hide();
+                                $("#hide13").attr('disabled', true);
+                                $("#hide13").click(function() {
+                                    $("#image13").hide();
+                                    $("#hide13").attr('disabled', true);
+                                    $("#show13").attr('disabled', false);
+
+                                });
+                                $("#show13").click(function() {
+                                    $("#image13").show();
+                                    $("#hide13").attr('disabled', false);
+                                    $("#show13").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td><img src="14.jpg">
+                        <button id="show14">Реверс</button>
+                        <button id="hide14">Скрыть</button>
+                        <img id="image14" src="photo_2023-02-11_17-43-58.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image14").hide();
+                                $("#hide14").attr('disabled', true);
+                                $("#hide14").click(function() {
+                                    $("#image14").hide();
+                                    $("#hide14").attr('disabled', true);
+                                    $("#show14").attr('disabled', false);
+                                });
+                                $("#show14").click(function() {
+                                    $("#image14").show();
+                                    $("#hide14").attr('disabled', false);
+                                    $("#show14").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td>Монета отчеканена 4 июня 2018 года.На аверсе в кольце по окружности расположены надписи: в верхней части — «БАНК РОССИИ», в нижней части — «2018». Слева и справа на внешнем кольце расположены изображения ветви лавра и дуба соответственно,
+                        элементы изображения которых переходят на диск. В центре диска расположены число «10» и надпись «РУБЛЕЙ» под ним, обозначающие номинал монеты. Внутри цифры «0» имеется защитный элемент в виде числа «10» и надписи «РУБ», наблюдаемых
+                        под разными углами зрения к плоскости монеты. В нижней части диска расположен товарный знак монетного двора. На реверсе в диске расположена архитектурная панорама города, справа – герб города Гороховца, по окружности на кольце
+                        – надписи, вверху: "ДРЕВНИЕ ГОРОДА РОССИИ", внизу: "ГОРОХОВЕЦ".Лот 000007. Стартовая стоимость 200 рублей.
+                    </td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <td> 8
+                    </td>
+                    <td>
+                        <img src="15.jpg">
+                        <button id="show15">Аверс</button>
+                        <button id="hide15">Скрыть</button>
+                        <img id="image15" src="photo_2023-02-12_12-39-38.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image15").hide();
+                                $("#hide15").attr('disabled', true);
+                                $("#hide15").click(function() {
+                                    $("#image15").hide();
+                                    $("#hide15").attr('disabled', true);
+                                    $("#show15").attr('disabled', false);
+
+                                });
+                                $("#show15").click(function() {
+                                    $("#image15").show();
+                                    $("#hide15").attr('disabled', false);
+                                    $("#show15").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td>
+                        <img src="16.jpg">
+                        <button id="show16">Реверс</button>
+                        <button id="hide16">Скрыть</button>
+                        <img id="image16" src="photo_2023-02-12_12-46-48.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image16").hide();
+                                $("#hide16").attr('disabled', true);
+                                $("#hide16").click(function() {
+                                    $("#image16").hide();
+                                    $("#hide16").attr('disabled', true);
+                                    $("#show16").attr('disabled', false);
+                                });
+                                $("#show16").click(function() {
+                                    $("#image16").show();
+                                    $("#hide16").attr('disabled', false);
+                                    $("#show16").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td> Монета отчеканена 10 января 2014 года. На аверсе изображена надписи: в верхней части — «БАНК РОССИИ», в нижней части — «2014». Слева и справа на внешнем кольце расположены изображения ветви лавра и дуба соответственно, элементы изображения
+                        которых переходят на диск. В центре диска расположены число «10» и надпись «РУБЛЕЙ» под ним, обозначающие номинал монеты. Внутри цифры «0» имеется защитный элемент в виде числа «10» и надписи «РУБ», наблюдаемых под разными углами
+                        зрения к плоскости монеты. В нижней части диска расположен товарный знак монетного двора. На реверсе расположено изображение панорамы города Нерехта, вверху — изображение герба города Нерехта, на кольце по окружности имеются надписи:
+                        в верхней части — «ДРЕВНИЕ ГОРОДА РОССИИ», в нижней части — «НЕРЕХТА». Лот 000008. Стартовая стоимость 200 рублей.</td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <td> 9 </td>
+                    <td><img src="17.jpg">
+                        <button id="show17">Аверс</button>
+                        <button id="hide17">Скрыть</button>
+                        <img id="image17" src="photo_2023-02-12_13-12-33.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image17").hide();
+                                $("#hide17").attr('disabled', true);
+                                $("#hide17").click(function() {
+                                    $("#image17").hide();
+                                    $("#hide17").attr('disabled', true);
+                                    $("#show17").attr('disabled', false);
+
+                                });
+                                $("#show17").click(function() {
+                                    $("#image17").show();
+                                    $("#hide17").attr('disabled', false);
+                                    $("#show17").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td>
+                        <img src="18.jpg">
+                        <button id="show18">Реверс</button>
+                        <button id="hide18">Скрыть</button>
+                        <img id="image18" src="photo_2023-02-12_13-43-44.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image18").hide();
+                                $("#hide18").attr('disabled', true);
+                                $("#hide18").click(function() {
+                                    $("#image18").hide();
+                                    $("#hide18").attr('disabled', true);
+                                    $("#show18").attr('disabled', false);
+                                });
+                                $("#show18").click(function() {
+                                    $("#image18").show();
+                                    $("#hide18").attr('disabled', false);
+                                    $("#show18").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td> Монета отчеканена 11 июля 2016 года. На аверсе по окружности расположены надписи: в верхней части — «БАНК РОССИИ», в нижней части — «2016». Слева и справа на внешнем кольце расположены изображения ветви лавра и дуба соответственно,
+                        элементы изображения которых переходят на диск. В центре диска расположены число «10» и надпись «РУБЛЕЙ» под ним, обозначающие номинал монеты. Внутри цифры «0» имеется защитный элемент в виде числа «10» и надписи «РУБ», наблюдаемых
+                        под разными углами зрения к плоскости монеты. В нижней части диска расположен товарный знак монетного двора. На реверсе расположено изображение панорамы города Зубцов, вверху — изображение герба города, на кольце по окружности
+                        имеются надписи: в верхней части — «ДРЕВНИЕ ГОРОДА РОССИИ», в нижней части — «ЗУБЦОВ». Лот 000010. Стартовая стоимость 200 рублей. </td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <td> 10 </td>
+                    <td><img src="19.jpg">
+                        <button id="show19">Аверс</button>
+                        <button id="hide19">Скрыть</button>
+                        <img id="image19" src="photo_2023-02-12_13-57-10.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image19").hide();
+                                $("#hide19").attr('disabled', true);
+                                $("#hide19").click(function() {
+                                    $("#image19").hide();
+                                    $("#hide19").attr('disabled', true);
+                                    $("#show19").attr('disabled', false);
+
+                                });
+                                $("#show19").click(function() {
+                                    $("#image19").show();
+                                    $("#hide19").attr('disabled', false);
+                                    $("#show19").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td><img src="20.jpg">
+                        <button id="show20">Реверс</button>
+                        <button id="hide20">Скрыть</button>
+                        <img id="image20" src="photo_2023-02-12_14-03-26.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image20").hide();
+                                $("#hide20").attr('disabled', true);
+                                $("#hide20").click(function() {
+                                    $("#image20").hide();
+                                    $("#hide20").attr('disabled', true);
+                                    $("#show20").attr('disabled', false);
+                                });
+                                $("#show20").click(function() {
+                                    $("#image20").show();
+                                    $("#hide20").attr('disabled', false);
+                                    $("#show20").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td> Монета отчеканена 11 июля 2016 года. На аверсе по окружности расположены надписи: в верхней части — «БАНК РОССИИ», в нижней части — «2016». Слева и справа на внешнем кольце расположены изображения ветви лавра и дуба соответственно,
+                        элементы изображения которых переходят на диск. В центре диска расположены число «10» и надпись «РУБЛЕЙ» под ним, обозначающие номинал монеты. Внутри цифры «0» имеется защитный элемент в виде числа «10» и надписи «РУБ», наблюдаемых
+                        под разными углами зрения к плоскости монеты. В нижней части диска расположен товарный знак монетного двора. На реверсе изображение панорамы города Ржева, вверху — изображение герба города Ржева, на кольце по окружности имеются
+                        надписи: в верхней части — «ДРЕВНИЕ ГОРОДА РОССИИ», в нижней части — «РЖЕВ». Лот 000011. Стартовая стоимость 200 рублей.</td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <td> 11 </td>
+                    <td><img src="21.jpg">
+                        <button id="show21">Аверс</button>
+                        <button id="hide21">Скрыть</button>
+                        <img id="image21" src="photo_2023-02-12_14-49-39.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image21").hide();
+                                $("#hide21").attr('disabled', true);
+                                $("#hide21").click(function() {
+                                    $("#image21").hide();
+                                    $("#hide21").attr('disabled', true);
+                                    $("#show21").attr('disabled', false);
+
+                                });
+                                $("#show21").click(function() {
+                                    $("#image21").show();
+                                    $("#hide21").attr('disabled', false);
+                                    $("#show21").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td><img src="22.jpg">
+                        <button id="show22">Реверс</button>
+                        <button id="hide22">Скрыть</button>
+                        <img id="image22" src="photo_2023-02-12_15-28-13.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image22").hide();
+                                $("#hide22").attr('disabled', true);
+                                $("#hide22").click(function() {
+                                    $("#image22").hide();
+                                    $("#hide22").attr('disabled', true);
+                                    $("#show22").attr('disabled', false);
+                                });
+                                $("#show22").click(function() {
+                                    $("#image22").show();
+                                    $("#hide22").attr('disabled', false);
+                                    $("#show22").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td>Год выпуска монеты 2016. На аверсе расположено обозначение номинала монеты в две строки «5 РУБЛЕЙ», ниже – надпись «БАНК РОССИИ», под ней год чеканки «2016», слева и справа – стилизованная ветка растения, в правой части монеты — товарный
+                        знак монетного двора. На реверсе расположено рельефное изображение скульптурной группы на Кладбище-мавзолее советских воинов в городе Варшаве, имеются надписи: вверху по окружности «ВАРШАВА» в обрамлении двух звездочек, внизу горизонтально
+                        – «17 ЯНВАРЯ 1945 г.».Лот 000012. Стартовая стоимость 100 рублей.</td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <td> 12 </td>
+                    <td><img src="23.jpg">
+                        <button id="show23">Аверс</button>
+                        <button id="hide23">Скрыть</button>
+                        <img id="image23" src="photo_2023-02-12_15-54-48.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image23").hide();
+                                $("#hide23").attr('disabled', true);
+                                $("#hide23").click(function() {
+                                    $("#image23").hide();
+                                    $("#hide23").attr('disabled', true);
+                                    $("#show23").attr('disabled', false);
+
+                                });
+                                $("#show23").click(function() {
+                                    $("#image23").show();
+                                    $("#hide23").attr('disabled', false);
+                                    $("#show23").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td><img src="24.jpg">
+                        <button id="show24">Реверс</button>
+                        <button id="hide24">Скрыть</button>
+                        <img id="image24" src="photo_2023-02-12_15-55-41.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image24").hide();
+                                $("#hide24").attr('disabled', true);
+                                $("#hide24").click(function() {
+                                    $("#image24").hide();
+                                    $("#hide24").attr('disabled', true);
+                                    $("#show24").attr('disabled', false);
+                                });
+                                $("#show24").click(function() {
+                                    $("#image24").show();
+                                    $("#hide24").attr('disabled', false);
+                                    $("#show24").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td>Год выпуска монеты 2016. На аверсе обозначение номинала монеты в две строки «5 РУБЛЕЙ», ниже – надпись «БАНК РОССИИ», под ней дата — «2016», слева и справа — стилизованная ветка растения, в правой части монеты — товарный знак монетного
+                        двора. На реверсе рельефное изображение памятника Минину и Пожарскому в г. Москве, имеются надписи: вверху по окружности — «ОСНОВАНО В 1866 г.», внизу в три строки – «РОССИЙСКОЕ ИСТОРИЧЕСКОЕ ОБЩЕСТВО». Лот 000013. Стартовая стоимость
+                        монеты 80 рублей</td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <td> 13 </td>
+                    <td><img src="25.jpg">
+                        <button id="show25">Аверс</button>
+                        <button id="hide25">Скрыть</button>
+                        <img id="image25" src="photo_2023-02-12_16-51-42.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image25").hide();
+                                $("#hide25").attr('disabled', true);
+                                $("#hide25").click(function() {
+                                    $("#image25").hide();
+                                    $("#hide25").attr('disabled', true);
+                                    $("#show25").attr('disabled', false);
+
+                                });
+                                $("#show25").click(function() {
+                                    $("#image25").show();
+                                    $("#hide25").attr('disabled', false);
+                                    $("#show25").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td><img src="26.jpg">
+                        <button id="show26">Реверс</button>
+                        <button id="hide26">Скрыть</button>
+                        <img id="image26" src="photo_2023-02-12_16-55-57.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image26").hide();
+                                $("#hide26").attr('disabled', true);
+                                $("#hide26").click(function() {
+                                    $("#image26").hide();
+                                    $("#hide26").attr('disabled', true);
+                                    $("#show26").attr('disabled', false);
+                                });
+                                $("#show26").click(function() {
+                                    $("#image26").show();
+                                    $("#hide26").attr('disabled', false);
+                                    $("#show26").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td>Монета изготовлена в 2018 году. На аверсе изображен волчонок "Забивака" - символ чемпионата мира по футболу, надпись по окружности — «ЧЕМПИОНАТ МИРА ПО ФУТБОЛУ 2018 В РОССИИ». На реверсе Рельефное изображение Государственного герба
+                        Российской Федерации, над ним надпись полукругом «РОССИЙСКАЯ ФЕДЕРАЦИЯ», имеются надписи в три строки: «БАНК РОССИИ», номинал монеты – «25 РУБЛЕЙ», и дата «2018 г.», справа – товарный знак Московского монетного двора. Лот 000014.
+                        Стартовая стоимость 100 рублей.</td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <td> 14 </td>
+                    <td><img src="27.jpg">
+                        <button id="show27">Аверс</button>
+                        <button id="hide27">Скрыть</button>
+                        <img id="image27" src="photo_2023-02-14_16-31-15.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image27").hide();
+                                $("#hide27").attr('disabled', true);
+                                $("#hide27").click(function() {
+                                    $("#image27").hide();
+                                    $("#hide27").attr('disabled', true);
+                                    $("#show27").attr('disabled', false);
+
+                                });
+                                $("#show27").click(function() {
+                                    $("#image27").show();
+                                    $("#hide27").attr('disabled', false);
+                                    $("#show27").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td><img src="28.jpg">
+                        <button id="show28">Реверс</button>
+                        <button id="hide28">Скрыть</button>
+                        <img id="image28" src="photo_2023-02-14_16-41-02.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image28").hide();
+                                $("#hide28").attr('disabled', true);
+                                $("#hide28").click(function() {
+                                    $("#image28").hide();
+                                    $("#hide28").attr('disabled', true);
+                                    $("#show28").attr('disabled', false);
+                                });
+                                $("#show28").click(function() {
+                                    $("#image28").show();
+                                    $("#hide28").attr('disabled', false);
+                                    $("#show28").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td> Монета выпущена в 2010 году. На аверсе изображен номинал по окружности "one pound", а также номинал на арабском языке. Монета выполнена в биметаллическом сплаве в центре латунь, по краю медно0никелиевый сплав. На реверсе изображена
+                        золотая маска Тутанхамона с орнаменом из цветов по окружности. Лот 000015. Стартовая стоимость монеты 100 рублей. </td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <td> 15 </td>
+                    <td><img src="29.jpg">
+                        <button id="show29">Аверс</button>
+                        <button id="hide29">Скрыть</button>
+                        <img id="image29" src="photo_2023-02-14_17-55-54.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image29").hide();
+                                $("#hide29").attr('disabled', true);
+                                $("#hide29").click(function() {
+                                    $("#image29").hide();
+                                    $("#hide29").attr('disabled', true);
+                                    $("#show29").attr('disabled', false);
+
+                                });
+                                $("#show29").click(function() {
+                                    $("#image29").show();
+                                    $("#hide29").attr('disabled', false);
+                                    $("#show29").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td><img src="30.jpg">
+                        <button id="show30">Реверс</button>
+                        <button id="hide30">Скрыть</button>
+                        <img id="image30" src="photo_2023-02-14_17-57-02.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image30").hide();
+                                $("#hide30").attr('disabled', true);
+                                $("#hide30").click(function() {
+                                    $("#image30").hide();
+                                    $("#hide30").attr('disabled', true);
+                                    $("#show30").attr('disabled', false);
+                                });
+                                $("#show30").click(function() {
+                                    $("#image30").show();
+                                    $("#hide30").attr('disabled', false);
+                                    $("#show30").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td> Монета выпущена в 2015 году. На аверсе в центре портрет Бернардо О'Хиггинса (1778-1842) (Тема Выдающиеся личности), генерала, диктатора Чили в 1817-1823 гг., руководителя освободительного движения; справа надпись в две строки на испанском
+                        LIBERTADOR B. O'HIGGINS (Освободитель О'Хиггинс). Слева и справа от портрета надписи по кругу на испанском REPUBLICA DE CHILE (Республика Чили). На реверсе в центре в две строки на испанском номинал 10 PESOS (10 песо), обрамленный
+                        лавровым венком. Лот 000016. Стартовая стоимость монеты 70 рублей. </td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <td> 16 </td>
+                    <td><img src="31.jpg">
+                        <button id="show31">Аверс</button>
+                        <button id="hide31">Скрыть</button>
+                        <img id="image31" src="photo_2023-02-14_18-30-05.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image31").hide();
+                                $("#hide31").attr('disabled', true);
+                                $("#hide31").click(function() {
+                                    $("#image31").hide();
+                                    $("#hide31").attr('disabled', true);
+                                    $("#show31").attr('disabled', false);
+
+                                });
+                                $("#show31").click(function() {
+                                    $("#image31").show();
+                                    $("#hide31").attr('disabled', false);
+                                    $("#show31").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td><img src="32.jpg">
+                        <button id="show32">Реверс</button>
+                        <button id="hide32">Скрыть</button>
+                        <img id="image32" src="photo_2023-02-14_18-31-37.jpg" alt="Photo">
+                        <script>
+                            $(document).ready(function() {
+                                $("#image32").hide();
+                                $("#hide32").attr('disabled', true);
+                                $("#hide32").click(function() {
+                                    $("#image32").hide();
+                                    $("#hide32").attr('disabled', true);
+                                    $("#show32").attr('disabled', false);
+                                });
+                                $("#show32").click(function() {
+                                    $("#image32").show();
+                                    $("#hide32").attr('disabled', false);
+                                    $("#show32").attr('disabled', true);
+                                });
+                            });
+                        </script>
+                    </td>
+                    <td> Монета выпущена в 2014 году. На аверсе В верхней части монеты надпись на пиньине: ZHONGGUO RENMIN YINHANG (НАРОДНЫЙ БАНК КИТАЯ). На реверсе в центре монеты – цифра "1", слева номинал в две строки на пиньине: YI JIAO, справа – надпись
+                        иероглифом. В нижней части монеты – год выпуска. В верхней части монеты надпись полукругом: НАРОДНЫЙ БАНК КИТАЯ. Лот 000017. Стартовая стоимость монеты 70 рублей. </td>
+                </th>
+            </tr>
+
+        </tbody>
+    </table>
+
+
+
+    <div class="outer"><img src="01.png"></div>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "8954EM1xPY1EVjdLCG7jk+ZqJVkVMkJSFZT0E6R8yCBgI3VbYpDvngytXCQQDV/barDbWVnN6LXn+lpEx7gxEA==",
+  "success": true,
+  "projectFilePath": "D:\\Обучение\\Diplom\\Telegram bot\\07.05 Создание telegrambot json.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Светлана\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Светлана\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Светлана\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Светлана\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Светлана\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

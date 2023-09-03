@@ -1,0 +1,85 @@
+D:\Обучение\BOOTCAMP интенсив\Программирование\07.05 Создание telegrambot json\obj\Debug\net6.0\07.05 Создание telegrambot json.csproj.AssemblyReference.cache
+D:\Обучение\BOOTCAMP интенсив\Программирование\07.05 Создание telegrambot json\obj\Debug\net6.0\07.05 Создание telegrambot json.GeneratedMSBuildEditorConfig.editorconfig
+D:\Обучение\BOOTCAMP интенсив\Программирование\07.05 Создание telegrambot json\obj\Debug\net6.0\07.05 Создание telegrambot json.AssemblyInfoInputs.cache
+D:\Обучение\BOOTCAMP интенсив\Программирование\07.05 Создание telegrambot json\obj\Debug\net6.0\07.05 Создание telegrambot json.AssemblyInfo.cs
+D:\Обучение\BOOTCAMP интенсив\Программирование\07.05 Создание telegrambot json\obj\Debug\net6.0\07.05 Создание telegrambot json.csproj.CoreCompileInputs.cache
+D:\Обучение\BOOTCAMP интенсив\Программирование\07.05 Создание telegrambot json\bin\Debug\net6.0\07.05 Создание telegrambot json.exe
+D:\Обучение\BOOTCAMP интенсив\Программирование\07.05 Создание telegrambot json\bin\Debug\net6.0\07.05 Создание telegrambot json.deps.json
+D:\Обучение\BOOTCAMP интенсив\Программирование\07.05 Создание telegrambot json\bin\Debug\net6.0\07.05 Создание telegrambot json.runtimeconfig.json
+D:\Обучение\BOOTCAMP интенсив\Программирование\07.05 Создание telegrambot json\bin\Debug\net6.0\07.05 Создание telegrambot json.dll
+D:\Обучение\BOOTCAMP интенсив\Программирование\07.05 Создание telegrambot json\bin\Debug\net6.0\ref\07.05 Создание telegrambot json.dll
+D:\Обучение\BOOTCAMP интенсив\Программирование\07.05 Создание telegrambot json\bin\Debug\net6.0\07.05 Создание telegrambot json.pdb
+D:\Обучение\BOOTCAMP интенсив\Программирование\07.05 Создание telegrambot json\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Обучение\BOOTCAMP интенсив\Программирование\07.05 Создание telegrambot json\obj\Debug\net6.0\07.05 Создание telegrambot json.csproj.CopyComplete
+D:\Обучение\BOOTCAMP интенсив\Программирование\07.05 Создание telegrambot json\obj\Debug\net6.0\07.05 Создание telegrambot json.dll
+D:\Обучение\BOOTCAMP интенсив\Программирование\07.05 Создание telegrambot json\obj\Debug\net6.0\ref\07.05 Создание telegrambot json.dll
+D:\Обучение\BOOTCAMP интенсив\Программирование\07.05 Создание telegrambot json\obj\Debug\net6.0\07.05 Создание telegrambot json.pdb
+D:\Обучение\BOOTCAMP интенсив\Программирование\07.05 Создание telegrambot json\obj\Debug\net6.0\07.05 Создание telegrambot json.genruntimeconfig.cache
+D:\Обучение\BOOTCAMP интенсив\Программирование\08,05 Пометка прочитанных сообщений\obj\Debug\net6.0\07.05 Создание telegrambot json.csproj.AssemblyReference.cache
+D:\Обучение\BOOTCAMP интенсив\Программирование\08,05 Пометка прочитанных сообщений\obj\Debug\net6.0\07.05 Создание telegrambot json.GeneratedMSBuildEditorConfig.editorconfig
+D:\Обучение\BOOTCAMP интенсив\Программирование\08,05 Пометка прочитанных сообщений\obj\Debug\net6.0\07.05 Создание telegrambot json.AssemblyInfoInputs.cache
+D:\Обучение\BOOTCAMP интенсив\Программирование\08,05 Пометка прочитанных сообщений\obj\Debug\net6.0\07.05 Создание telegrambot json.AssemblyInfo.cs
+D:\Обучение\BOOTCAMP интенсив\Программирование\08,05 Пометка прочитанных сообщений\obj\Debug\net6.0\07.05 Создание telegrambot json.csproj.CoreCompileInputs.cache
+D:\Обучение\BOOTCAMP интенсив\Программирование\08,05 Пометка прочитанных сообщений\obj\Debug\net6.0\07.05 Создание telegrambot json.dll
+D:\Обучение\BOOTCAMP интенсив\Программирование\08,05 Пометка прочитанных сообщений\obj\Debug\net6.0\ref\07.05 Создание telegrambot json.dll
+D:\Обучение\BOOTCAMP интенсив\Программирование\08,05 Пометка прочитанных сообщений\obj\Debug\net6.0\07.05 Создание telegrambot json.pdb
+D:\Обучение\BOOTCAMP интенсив\Программирование\08,05 Пометка прочитанных сообщений\bin\Debug\net6.0\07.05 Создание telegrambot json.exe
+D:\Обучение\BOOTCAMP интенсив\Программирование\08,05 Пометка прочитанных сообщений\bin\Debug\net6.0\07.05 Создание telegrambot json.deps.json
+D:\Обучение\BOOTCAMP интенсив\Программирование\08,05 Пометка прочитанных сообщений\bin\Debug\net6.0\07.05 Создание telegrambot json.runtimeconfig.json
+D:\Обучение\BOOTCAMP интенсив\Программирование\08,05 Пометка прочитанных сообщений\bin\Debug\net6.0\07.05 Создание telegrambot json.dll
+D:\Обучение\BOOTCAMP интенсив\Программирование\08,05 Пометка прочитанных сообщений\bin\Debug\net6.0\ref\07.05 Создание telegrambot json.dll
+D:\Обучение\BOOTCAMP интенсив\Программирование\08,05 Пометка прочитанных сообщений\bin\Debug\net6.0\07.05 Создание telegrambot json.pdb
+D:\Обучение\BOOTCAMP интенсив\Программирование\08,05 Пометка прочитанных сообщений\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Обучение\BOOTCAMP интенсив\Программирование\08,05 Пометка прочитанных сообщений\obj\Debug\net6.0\07.05 Создание telegrambot json.csproj.CopyComplete
+D:\Обучение\BOOTCAMP интенсив\Программирование\08,05 Пометка прочитанных сообщений\obj\Debug\net6.0\07.05 Создание telegrambot json.genruntimeconfig.cache
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12 Создание Telegram bot\obj\Debug\net6.0\07.05 Создание telegrambot json.csproj.AssemblyReference.cache
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12 Создание Telegram bot\obj\Debug\net6.0\07.05 Создание telegrambot json.GeneratedMSBuildEditorConfig.editorconfig
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12 Создание Telegram bot\obj\Debug\net6.0\07.05 Создание telegrambot json.AssemblyInfoInputs.cache
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12 Создание Telegram bot\obj\Debug\net6.0\07.05 Создание telegrambot json.AssemblyInfo.cs
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12 Создание Telegram bot\obj\Debug\net6.0\07.05 Создание telegrambot json.csproj.CoreCompileInputs.cache
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12 Создание Telegram bot\obj\Debug\net6.0\07.05 Создание telegrambot json.dll
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12 Создание Telegram bot\obj\Debug\net6.0\ref\07.05 Создание telegrambot json.dll
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12 Создание Telegram bot\obj\Debug\net6.0\07.05 Создание telegrambot json.pdb
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12 Создание Telegram bot\bin\Debug\net6.0\07.05 Создание telegrambot json.exe
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12 Создание Telegram bot\bin\Debug\net6.0\07.05 Создание telegrambot json.deps.json
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12 Создание Telegram bot\bin\Debug\net6.0\07.05 Создание telegrambot json.runtimeconfig.json
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12 Создание Telegram bot\bin\Debug\net6.0\07.05 Создание telegrambot json.dll
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12 Создание Telegram bot\bin\Debug\net6.0\ref\07.05 Создание telegrambot json.dll
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12 Создание Telegram bot\bin\Debug\net6.0\07.05 Создание telegrambot json.pdb
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12 Создание Telegram bot\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12 Создание Telegram bot\obj\Debug\net6.0\07.05 Создание telegrambot json.csproj.CopyComplete
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12 Создание Telegram bot\obj\Debug\net6.0\07.05 Создание telegrambot json.genruntimeconfig.cache
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12  (09.05)Создание Telegram bot\bin\Debug\net6.0\07.05 Создание telegrambot json.exe
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12  (09.05)Создание Telegram bot\bin\Debug\net6.0\07.05 Создание telegrambot json.deps.json
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12  (09.05)Создание Telegram bot\bin\Debug\net6.0\07.05 Создание telegrambot json.runtimeconfig.json
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12  (09.05)Создание Telegram bot\bin\Debug\net6.0\07.05 Создание telegrambot json.dll
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12  (09.05)Создание Telegram bot\bin\Debug\net6.0\ref\07.05 Создание telegrambot json.dll
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12  (09.05)Создание Telegram bot\bin\Debug\net6.0\07.05 Создание telegrambot json.pdb
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12  (09.05)Создание Telegram bot\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12  (09.05)Создание Telegram bot\obj\Debug\net6.0\07.05 Создание telegrambot json.csproj.AssemblyReference.cache
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12  (09.05)Создание Telegram bot\obj\Debug\net6.0\07.05 Создание telegrambot json.GeneratedMSBuildEditorConfig.editorconfig
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12  (09.05)Создание Telegram bot\obj\Debug\net6.0\07.05 Создание telegrambot json.AssemblyInfoInputs.cache
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12  (09.05)Создание Telegram bot\obj\Debug\net6.0\07.05 Создание telegrambot json.AssemblyInfo.cs
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12  (09.05)Создание Telegram bot\obj\Debug\net6.0\07.05 Создание telegrambot json.csproj.CoreCompileInputs.cache
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12  (09.05)Создание Telegram bot\obj\Debug\net6.0\07.05 Создание telegrambot json.csproj.CopyComplete
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12  (09.05)Создание Telegram bot\obj\Debug\net6.0\07.05 Создание telegrambot json.dll
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12  (09.05)Создание Telegram bot\obj\Debug\net6.0\ref\07.05 Создание telegrambot json.dll
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12  (09.05)Создание Telegram bot\obj\Debug\net6.0\07.05 Создание telegrambot json.pdb
+D:\Обучение\BOOTCAMP интенсив\Программирование\Урок 12  (09.05)Создание Telegram bot\obj\Debug\net6.0\07.05 Создание telegrambot json.genruntimeconfig.cache
+D:\Обучение\Diplom\Telegram bot\bin\Debug\net6.0\07.05 Создание telegrambot json.exe
+D:\Обучение\Diplom\Telegram bot\bin\Debug\net6.0\07.05 Создание telegrambot json.deps.json
+D:\Обучение\Diplom\Telegram bot\bin\Debug\net6.0\07.05 Создание telegrambot json.runtimeconfig.json
+D:\Обучение\Diplom\Telegram bot\bin\Debug\net6.0\07.05 Создание telegrambot json.dll
+D:\Обучение\Diplom\Telegram bot\bin\Debug\net6.0\07.05 Создание telegrambot json.pdb
+D:\Обучение\Diplom\Telegram bot\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Обучение\Diplom\Telegram bot\obj\Debug\net6.0\07.05 Создание telegrambot json.csproj.AssemblyReference.cache
+D:\Обучение\Diplom\Telegram bot\obj\Debug\net6.0\07.05 Создание telegrambot json.GeneratedMSBuildEditorConfig.editorconfig
+D:\Обучение\Diplom\Telegram bot\obj\Debug\net6.0\07.05 Создание telegrambot json.AssemblyInfoInputs.cache
+D:\Обучение\Diplom\Telegram bot\obj\Debug\net6.0\07.05 Создание telegrambot json.AssemblyInfo.cs
+D:\Обучение\Diplom\Telegram bot\obj\Debug\net6.0\07.05 Создание telegrambot json.csproj.CoreCompileInputs.cache
+D:\Обучение\Diplom\Telegram bot\obj\Debug\net6.0\07.05 Создание telegrambot json.csproj.CopyComplete
+D:\Обучение\Diplom\Telegram bot\obj\Debug\net6.0\07.05 Создание telegrambot json.dll
+D:\Обучение\Diplom\Telegram bot\obj\Debug\net6.0\ref\07.05 Создание telegrambot json.dll
+D:\Обучение\Diplom\Telegram bot\obj\Debug\net6.0\07.05 Создание telegrambot json.pdb
+D:\Обучение\Diplom\Telegram bot\obj\Debug\net6.0\07.05 Создание telegrambot json.genruntimeconfig.cache
+D:\Обучение\Diplom\Telegram bot\obj\Debug\net6.0\refint\07.05 Создание telegrambot json.dll
